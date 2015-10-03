@@ -1,0 +1,31 @@
+{
+  "name": "gulp-nscabinet",
+  "version": "0.1.0",
+  "description": "Gulp Plugin for Upload/Download files to Netsuite File Cabinet",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suiteplus/gulp-nscabinet.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "nscabinet",
+    "netsuite",
+    "cabinet",
+    "suiteplus",
+    "s+"
+  ],
+  "author": "daniel.joppi@suiteplus.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suiteplus/gulp-nscabinet/issues"
+  },
+  "homepage": "https://github.com/suiteplus/gulp-nscabinet#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.6",
+    "nscabinet": "^0.3.1"
+  }
+}
