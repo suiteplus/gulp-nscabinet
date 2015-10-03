@@ -1,4 +1,4 @@
-# gulp-nscabinet
+# gulp-nscabinet [![NPM version][npm-image]][npm-url]
 
 Gulp plugin to nscabinet.
 
@@ -11,6 +11,9 @@ Upload/Download files to Netsuite File Cabinet.
 ```bash
     npm install gulp-nscabinet --save-dev
 ```
+
+[npm-url]: https://npmjs.org/package/gulp-nscabinet
+[npm-image]: http://img.shields.io/npm/v/gulp-nscabinet.svg
 
 [david-url]: https://david-dm.org/suiteplus/gulp-nscabinet
 [david-image]: https://david-dm.org/suiteplus/gulp-nscabinet.svg
