@@ -1,8 +1,8 @@
 # gulp-nscabinet [![NPM version][npm-image]][npm-url]
 
-Gulp plugin to nscabinet.
+Upload/download files to a netsuite account, using the included restlet.
 
-Upload/Download files to Netsuite File Cabinet.
+This is just a wrapper for [nscabinet](https://github.com/suiteplus/nscabinet). Check it for usage and for the restlet.
 
 ## Required
  * node.js 4+
