@@ -1,6 +1,6 @@
 {
   "name": "gulp-nscabinet",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Gulp Plugin for Upload/Download files to Netsuite File Cabinet",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/suiteplus/gulp-nscabinet#readme",
   "dependencies": {
-    "gulp-util": "^3.0.6",
     "nscabinet": "^0.4.0"
   }
 }
