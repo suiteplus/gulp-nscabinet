@@ -2,7 +2,7 @@
 
 Upload/download files to a netsuite account, using the included restlet.
 
-This is just a wrapper for [nscabinet](https://github.com/suiteplus/nscabinet). Check it for usage and for the restlet.
+This is just re-export of [nscabinet](https://github.com/suiteplus/nscabinet). Check it for usage and for the restlet.
 
 ## Required
  * node.js 4+
