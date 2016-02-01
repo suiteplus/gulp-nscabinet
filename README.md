@@ -12,6 +12,41 @@ This is just re-export of [nscabinet](https://github.com/suiteplus/nscabinet). C
     npm install gulp-nscabinet --save-dev
 ```
 
+## Usage
+
+First setup your credentials with [nsconfig](https://github.com/suiteplus/nsconfig#output-example).
+
+If your project setup looks like this
+```
+├── src
+│   ├── foo.js
+│   ├── bar.js
+│   └── qax.js
+└── test.js
+```
+
+and you want to upload and download everything within __src__ to/from NetSuite under __/SuiteScripts/project-x__
+but without to have the __src__ directory on NetSuite.
+
+```js
+var gulp = require('gulp');
+var gulpNscabinet = require('gulp-nscabinet');
+
+gulp.task('download', function (callback) {
+    gulpNscabinet.download(remoteFiles, {
+        rootPath : '/SuiteScripts/project-x'
+    })
+    .pipe(gulp.dest('src'))
+})
+
+gulp.task('upload', function (callback) {
+    gulp.src('src/**/*.js', {cwd: 'src'})
+    .pipe(gulpNscabinet({
+        rootPath : '/SuiteScripts/project-x'
+    }))
+})
+```
+
 [npm-url]: https://npmjs.org/package/gulp-nscabinet
 [npm-image]: http://img.shields.io/npm/v/gulp-nscabinet.svg
 
